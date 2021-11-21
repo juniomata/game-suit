@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+
+
+/* Section navbar style */
+#navb {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+}
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+}
+.bg-nav {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+/* Section Header / home style */
+.header {
+  padding-top: 2rem;
+  background-image: url('../assets/main-bg.jpg');
+  height: 100%;
+  background-size: cover;
+}
+.header h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 200px;
+}
+.header h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.header a {
+  margin-top: 30px;
+}
+.btn{
+  font-size: 18px;
+  padding: 15px 55px;
+}
+.next {
+  padding-top: 15%;
+  margin-bottom: 0;
+}
+.next a {
+  text-decoration: none;
+}
+.next a p {
+  color: white;
+}
+
+
+
+/* Section The Games stye */
+#theGames {
+  padding: 2rem;
+  background-image: url('../assets/the-games-bg.jpg');
+  min-height: 800px;
+  height: 100%;
+  background-size: cover;
+  /* background-image: linear-gradient(#fff 0%, #000 100%), url('../assets/the-games-bg.jpg'); */
+}
+#theGames h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+#theGames h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  font-weight: bold;
+}
+#carousel-btn{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+
+
+/* Section Features style */
+#features {
+  padding: 2rem;
+  background-image: url('../assets/features.jpg');
+  min-height: 800px;
+  height: 100%;
+  background-size: cover;
+}
+#features .row {
+  padding-top: 180px;
+}
+#features h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+#features h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  font-weight: bold;
+}
+#features p.features {
+  color: #fcb344;
+  margin-bottom: 25px;
+}
+#features p.features1 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+
+
+/* Style Requirements */
+#requirements {
+  padding: 2rem;
+  background-image: url('../assets/requirements.png');
+  min-height: 800px;
+  height: 100%;
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  /* background:linear-gradient(0deg, rgba(255, 0, 150, 0.3)); */
+}
+#requirements h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+tr {
+  background-color: rgba(0, 0, 0, 0.7)
+}
+td p {
+  color: white;  
+}
+td p.spec {
+  color: #fcb344;
+}
+
+
+
+/* Style Top Scores */
+#topScores {
+  padding: 2rem;
+  background: url('../assets/top-scores-bg.png');
+  min-height: 800px;
+  height: 100%;
+  background-size: cover;
+}
+#topScores h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+.card-header img {
+  border-radius: 50%;
+}
+.card-header h5 {
+  color: #ffb548;
+  font-weight: bold;
+}
+.reviewer-image {
+  /* object-fit: none; */
+  /* object-position: center; */
+  /* height: 50px;
+  width: 50px; */
+  box-shadow: 5px 5px #ffb548;
+}
+.reviewer-card {
+  border-radius: 10px;
+}
+
+
+
+/* Style NewsLetter */
+#newsLetter {
+  padding: 2rem;
+  background-image: url('../assets/statue.png');
+  background-repeat: no-repeat;
+  background-position: 25% 75%;
+  background-color: #080a0b;
+  height: 100%;
+  min-height: 800px;
+}
+#newsLetter h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
+.form-control {
+  height: 58px;
+}
+::placeholder {
+  color: #ffb548;
+  opacity: 1;
+}
+
+
+/* Style Footer */
+footer {
+  background-color: #080a0b;
+}
+.footer1 ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+.footer1 ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer1 ul li a:hover {
+  text-decoration: none;
+  color: grey;
+}
+footer .col-md-5 img {
+  padding: 1rem;
+}
+footer hr {
+  margin-top: -10px;
+}
+.footer2 ul li {
+  display: inline-block;
+}
+.footer2 ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer2 ul li a:hover {
+  text-decoration: none;
+  color: grey;
+}
